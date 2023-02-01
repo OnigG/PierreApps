@@ -1,0 +1,150 @@
+class CoefficientOfFrictionData {
+  final double betweenThreads;
+  final double o08;
+  final double o10;
+  final double o12;
+  final double o15;
+  final double o20;
+  final double o25;
+  final double o30;
+  final double o35;
+  final double o40;
+  final double o45;
+
+  const CoefficientOfFrictionData({
+    required this.betweenThreads,
+    required this.o08,
+    required this.o10,
+    required this.o12,
+    required this.o15,
+    required this.o20,
+    required this.o25,
+    required this.o30,
+    required this.o35,
+    required this.o40,
+    required this.o45,
+  });
+}
+
+const allCoefficientOfFrictionData = [
+  CoefficientOfFrictionData(
+      betweenThreads: 0.08,
+      o08: 0.117,
+      o10: 0.13,
+      o12: 0.143,
+      o15: 0.163,
+      o20: 0.195,
+      o25: 0.228,
+      o30: 0.261,
+      o35: 0.293,
+      o40: 0.326,
+      o45: 0.359),
+  CoefficientOfFrictionData(
+      betweenThreads: 0.1,
+      o08: 0.127,
+      o10: 0.14,
+      o12: 0.153,
+      o15: 0.173,
+      o20: 0.206,
+      o25: 0.239,
+      o30: 0.271,
+      o35: 0.304,
+      o40: 0.337,
+      o45: 0.369),
+  CoefficientOfFrictionData(
+      betweenThreads: 0.12,
+      o08: 0.138,
+      o10: 0.151,
+      o12: 0.164,
+      o15: 0.184,
+      o20: 0.216,
+      o25: 0.249,
+      o30: 0.282,
+      o35: 0.314,
+      o40: 0.347,
+      o45: 0.38),
+  CoefficientOfFrictionData(
+      betweenThreads: 0.15,
+      o08: 0.153,
+      o10: 0.167,
+      o12: 0.18,
+      o15: 0.199,
+      o20: 0.232,
+      o25: 0.265,
+      o30: 0.297,
+      o35: 0.33,
+      o40: 0.363,
+      o45: 0.396),
+  CoefficientOfFrictionData(
+      betweenThreads: 0.2,
+      o08: 0.18,
+      o10: 0.193,
+      o12: 0.206,
+      o15: 0.226,
+      o20: 0.258,
+      o25: 0.291,
+      o30: 0.324,
+      o35: 0.356,
+      o40: 0.389,
+      o45: 0.422),
+  CoefficientOfFrictionData(
+      betweenThreads: 0.25,
+      o08: 0.206,
+      o10: 0.219,
+      o12: 0.232,
+      o15: 0.252,
+      o20: 0.284,
+      o25: 0.317,
+      o30: 0.35,
+      o35: 0.383,
+      o40: 0.415,
+      o45: 0.448),
+  CoefficientOfFrictionData(
+      betweenThreads: 0.3,
+      o08: 0.232,
+      o10: 0.245,
+      o12: 0.258,
+      o15: 0.278,
+      o20: 0.311,
+      o25: 0.343,
+      o30: 0.376,
+      o35: 0.409,
+      o40: 0.442,
+      o45: 0.474),
+  CoefficientOfFrictionData(
+      betweenThreads: 0.35,
+      o08: 0.258,
+      o10: 0.271,
+      o12: 0.284,
+      o15: 0.304,
+      o20: 0.337,
+      o25: 0.37,
+      o30: 0.402,
+      o35: 0.435,
+      o40: 0.468,
+      o45: 0.5),
+  CoefficientOfFrictionData(
+      betweenThreads: 0.4,
+      o08: 0.285,
+      o10: 0.298,
+      o12: 0.311,
+      o15: 0.33,
+      o20: 0.363,
+      o25: 0.396,
+      o30: 0.428,
+      o35: 0.461,
+      o40: 0.494,
+      o45: 0.527),
+  CoefficientOfFrictionData(
+      betweenThreads: 0.45,
+      o08: 0.311,
+      o10: 0.324,
+      o12: 0.337,
+      o15: 0.357,
+      o20: 0.389,
+      o25: 0.422,
+      o30: 0.455,
+      o35: 0.487,
+      o40: 0.52,
+      o45: 0.553),
+];
